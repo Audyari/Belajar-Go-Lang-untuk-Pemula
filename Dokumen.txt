@@ -1,4 +1,4 @@
-Konversi Tipe Data
+penggunaan operator Increment dan Decrement dalam program Golang:
 
 link nya : https://www.golang-book.com/
 
@@ -27,12 +27,14 @@ Go-Lang Dependency Injection oleh Eko Kurniawan Khannedy
 
 contoh Kasus : 
 
-1. Kita mengkonversi tipe data int ke float64 dengan menggunakan float64(x).
-2. Kita mengkonversi tipe data float64 ke int dengan menggunakan int(a).
-3. Kita mengkonversi tipe data string ke int dengan menggunakan strconv.Atoi(s). Perhatikan bahwa Atoi mengembalikan dua nilai, yaitu nilai konversi dan error jika terjadi kesalahan.
-4. Kita mengkonversi tipe data int ke string dengan menggunakan strconv.Itoa(d).
+1. Deklarasi variabel x dengan nilai awal 5.
+2. Menggunakan operator x++ (postfix increment), nilai x bertambah 1 menjadi 6.
+3. Menggunakan operator ++x (prefix increment), nilai x bertambah 1 lagi menjadi 7.
+4. Deklarasi variabel y dengan nilai awal 10.
+5. Menggunakan operator y-- (postfix decrement), nilai y berkurang 1 menjadi 9.
+6. Menggunakan operator --y (prefix decrement), nilai y berkurang 1 lagi menjadi 8.
 
-go run konversi.go
+go run Increment_Decrement.go
 
 
 
