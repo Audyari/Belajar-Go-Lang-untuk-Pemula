@@ -1,4 +1,4 @@
-penggunaan operator Increment dan Decrement dalam program Golang:
+Pernyataan for di Golang digunakan untuk membuat loop.
 
 link nya : https://www.golang-book.com/
 
@@ -27,14 +27,15 @@ Go-Lang Dependency Injection oleh Eko Kurniawan Khannedy
 
 contoh Kasus : 
 
-1. Deklarasi variabel x dengan nilai awal 5.
-2. Menggunakan operator x++ (postfix increment), nilai x bertambah 1 menjadi 6.
-3. Menggunakan operator ++x (prefix increment), nilai x bertambah 1 lagi menjadi 7.
-4. Deklarasi variabel y dengan nilai awal 10.
-5. Menggunakan operator y-- (postfix decrement), nilai y berkurang 1 menjadi 9.
-6. Menggunakan operator --y (prefix decrement), nilai y berkurang 1 lagi menjadi 8.
+Penjelasan:
 
-go run Increment_Decrement.go
+1. Dalam fungsi main(), kita menampilkan contoh penggunaan masing-masing bentuk pernyataan for di Golang.
+2. Untuk bentuk dasar, kita menggunakan loop for dengan initialization, condition, dan post untuk mencetak nilai i dari 0 hingga 4.
+3. Untuk bentuk singkat, kita menggunakan loop for hanya dengan condition untuk mengurangi nilai x dari 10 hingga 1.
+4. Untuk bentuk for-each, kita menggunakan loop for dengan key dan value untuk mencetak indeks dan nilai dari setiap elemen dalam slice fruits.
+5. Untuk bentuk tak terbatas, kita menggunakan loop for tanpa initialization, condition, dan post untuk mencetak "Looping..." dan menambah nilai count hingga count lebih besar dari 2, lalu loop dihentikan dengan break.
+
+go run for.go
 
 
 
