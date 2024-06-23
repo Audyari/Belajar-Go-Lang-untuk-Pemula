@@ -1,24 +1,13 @@
-Menginstall Go-Lang
+Membuat Program Hello World
 
-link nya : https://go.dev/dl/
+link nya : https://www.golang-book.com/
 
 =================================
 
-Windows:
 
-1. Buka Command Prompt atau PowerShell.
-2. Jalankan perintah go version.
-3. Jika Go-Lang terinstal dengan benar, maka akan ditampilkan versi Go yang terinstal, contohnya: go version go1.16.2 windows/amd64.
+1.  go run main.go
 
 ==================================
 
-1. go run hello.go
 
-==================================
 
-cara menginstal sebuah library :
-
-2. go install github.com/gomodule/redigo/redis@latest
-3. go install golang.org/x/tools/gopls@latest
-
-=======================================
