@@ -1,4 +1,4 @@
-Operator Matematika
+Konversi Tipe Data
 
 link nya : https://www.golang-book.com/
 
@@ -25,21 +25,15 @@ Go-Lang Dependency Injection oleh Eko Kurniawan Khannedy
 
 ==================================================
 
-Penjumlahan (+):
+contoh Kasus : 
 
-Pengurangan (-):
+1. Kita mengkonversi tipe data int ke float64 dengan menggunakan float64(x).
+2. Kita mengkonversi tipe data float64 ke int dengan menggunakan int(a).
+3. Kita mengkonversi tipe data string ke int dengan menggunakan strconv.Atoi(s). Perhatikan bahwa Atoi mengembalikan dua nilai, yaitu nilai konversi dan error jika terjadi kesalahan.
+4. Kita mengkonversi tipe data int ke string dengan menggunakan strconv.Itoa(d).
 
-Perkalian (*):
+go run konversi.go
 
-Pembagian (/):
-
-Modulo (%):
-Operator ini digunakan untuk mendapatkan sisa hasil bagi.
-
-Operator Unary:
-Increment (++): Menambahkan 1 ke variabel.
-
-Decrement (--): Mengurangi 1 dari variabel.
 
 
 =====================================================
