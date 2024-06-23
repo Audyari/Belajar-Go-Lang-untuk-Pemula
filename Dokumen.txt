@@ -1,4 +1,5 @@
-If Di Golang :
+break dan continue adalah dua statement yang digunakan untuk mengontrol aliran program dalam loop.
+
 
 link nya : https://www.golang-book.com/
 
@@ -29,11 +30,24 @@ contoh Kasus :
 
 Penjelasan:
 
-kita menggunakan berbagai bentuk if untuk membuat cabang-cabang dalam program. Mulai dari if 
-dasar, if-else, if-else if-else, inisialisasi variabel dalam if, kombinasi dengan operator 
-logika, dan penggunaan switch.
+1. Contoh penggunaan break:
+Loop berhenti saat i bernilai 3 karena break dieksekusi.
+Output: 0 1 2
 
-go run ifGolang.go
+2. Contoh penggunaan continue:
+Saat i bernilai 3, loop melewati print statement dan langsung lanjut ke iterasi berikutnya.
+Output: 0 1 2 4
+
+3. Contoh penggunaan break dan continue pada loop bersarang:
+Saat i bernilai 1 dan j bernilai 1, loop dalam berhenti karena break dieksekusi.
+Saat i bernilai 2 dan j bernilai 1, loop dalam melewati print statement dan lanjut ke iterasi berikutnya karena continue dieksekusi.
+Output: menampilkan koordinat (i, j) kecuali saat i bernilai 1 dan j bernilai 1, serta saat i bernilai 2 dan j bernilai 1.
+
+
+
+go run break_dan_continue.go
+
+
 
 
 
