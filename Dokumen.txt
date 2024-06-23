@@ -1,0 +1,15 @@
+
+Apa itu Go-Lang?
+
+Go-Lang, atau lebih dikenal sebagai Go, adalah bahasa pemrograman yang dikembangkan oleh Google.
+
+Beberapa fitur utama Go adalah:
+
+1. Sintaks yang sederhana: Go memiliki sintaks yang sederhana dan mudah dipelajari, terinspirasi dari bahasa C. Hal ini membuatnya cocok untuk pengembangan tim yang cepat.
+2. Kompatibilitas tinggi: Go dapat dengan mudah diintegrasikan dengan bahasa pemrograman lain, memungkinkan pengembang untuk memanfaatkan kode yang ada.
+3. Performa tinggi: Go didesain untuk memiliki performa yang tinggi, terutama untuk tugas-tugas yang membutuhkan banyak komputasi.
+4. Concurrency: Go menyediakan dukungan built-in untuk concurrency, memudahkan pengembang untuk menulis kode yang dapat berjalan dalam paralel.
+5. Kompilasi cepat: Go memiliki kompiler yang cepat, memungkinkan pengembang untuk mendapatkan umpan balik yang cepat saat menulis kode.
+
+
+================================================
