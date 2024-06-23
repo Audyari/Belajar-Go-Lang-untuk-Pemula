@@ -3,74 +3,48 @@ package main
 import "fmt"
 
 func main() {
-	// Bilangan Bulat (Integers)
-	var usia int = 30
-	var jumlah uint8 = 255
-	fmt.Println("Usia:", usia)
-	fmt.Println("Jumlah:", jumlah)
-	fmt.Println("=================")
+	// Penjumlahan
+	x := 5 + 3
+	fmt.Println("Hasil penjumlahan:", x) // Output: Hasil penjumlahan: 8
+	fmt.Println("===========================")
 
-	// Bilangan Floating-Point
-	var pi float64 = 3.14159
-	var jarak float32 = 5.2
-	fmt.Println("Pi:", pi)
-	fmt.Println("Jarak:", jarak)
-	fmt.Println("=================")
+	// Pengurangan
+	y := 10 - 4
+	fmt.Println("Hasil pengurangan:", y) // Output: Hasil pengurangan: 6
+	fmt.Println("===========================")
 
-	// Boolean
-	var adalahMahasiswa bool = true
-	var sudahMenikah bool = false
-	fmt.Println("Apakah Mahasiswa:", adalahMahasiswa)
-	fmt.Println("Sudah Menikah:", sudahMenikah)
-	fmt.Println("==============================")
+	// Perkalian
+	z := 7 * 6
+	fmt.Println("Hasil perkalian:", z) // Output: Hasil perkalian: 42
+	fmt.Println("===========================")
 
-	// String
-	var nama string = "Audyari W"
-	var pesan string = "Halo, Dunia!"
-	fmt.Println("Nama:", nama)
-	fmt.Println("Pesan:", pesan)
-	fmt.Println("==============================")
+	// Pembagian
+	a := 15 / 3
+	fmt.Println("Hasil pembagian:", a) // Output: Hasil pembagian: 5
+	fmt.Println("===========================")
 
-	// Kompleks
-	var kompleks1 complex64 = 2 + 3i
-	var kompleks2 complex128 = 4 + 5i
-	fmt.Println("Kompleks1:", kompleks1)
-	fmt.Println("Kompleks2:", kompleks2)
-	fmt.Println("==============================")
+	// Modulo
+	b := 17 % 5
+	fmt.Println("Sisa bagi:", b) // Output: Sisa bagi: 2
+	fmt.Println("===========================")
 
-	// Array
-	var angka [5]int = [5]int{1, 2, 3, 4, 5}
-	var warna [3]string = [3]string{"merah", "hijau", "biru"}
-	fmt.Println("Angka:", angka)
-	fmt.Println("Warna:", warna)
-	fmt.Println("==============================")
+	// Operator Unary
+	c := 4
+	c++                                // c = 5
+	fmt.Println("Hasil increment:", c) // Output: Hasil increment: 5
 
-	// Slice
-	var buah []string = []string{"apel", "pisang", "jeruk"}
-	var data []int = []int{10, 20, 30, 40, 50}
-	fmt.Println("Buah:", buah)
-	fmt.Println("Data:", data)
-	fmt.Println("==============================")
+	d := 7
+	d--                                // d = 6
+	fmt.Println("Hasil decrement:", d) // Output: Hasil decrement: 6
+	fmt.Println("===========================")
 
-	// Map
-	var orang map[string]interface{} = map[string]interface{}{
-		"nama":      "Audyari W",
-		"usia":      30,
-		"adalahVIP": true,
-	}
-	fmt.Println("Orang:", orang)
-	fmt.Println("==============================")
-
-	// Struct
-	type Orang struct {
-		Nama string
-		Usia int
-	}
-
-	var john Orang = Orang{
-		Nama: "Audyari W",
-		Usia: 30,
-	}
-	fmt.Println("Audy:", john)
-	fmt.Println("==============================")
+	// Operator Gabungan
+	x = 10
+	x += 5                         // x = 15
+	x -= 3                         // x = 12
+	x *= 2                         // x = 24
+	x /= 4                         // x = 6
+	x %= 3                         // x = 0
+	fmt.Println("Hasil akhir:", x) // Output: Hasil akhir: 0
+	fmt.Println("===========================")
 }

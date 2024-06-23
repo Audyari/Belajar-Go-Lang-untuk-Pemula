@@ -1,4 +1,4 @@
-Membuat Program Hello World
+Operator Matematika
 
 link nya : https://www.golang-book.com/
 
@@ -8,6 +8,42 @@ link nya : https://www.golang-book.com/
 1.  go run main.go
 
 ==================================
+
+Belajar mana dulu : 
+
+Go-lang Standard Library oleh Eko Kurniawan Khannedy
+Go-Lang Redis oleh Eko Kurniawan Khannedy
+Go-Lang Gorm oleh Eko Kurniawan Khannedy
+Go-Lang Fiber oleh Eko Kurniawan Khannedy
+Go-Lang Viper oleh Eko Kurniawan Khannedy
+Belajar Microservice dengan Go (Golang), Protobuf, dan GRPC API oleh Timotius Pamungkas
+Go-Lang Validation oleh Eko Kurniawan Khannedy
+Go-Lang Database Migration oleh Eko Kurniawan Khannedy
+Go-Lang Generics oleh Eko Kurniawan Khannedy
+Go-Lang Logging oleh Eko Kurniawan Khannedy
+Go-Lang Dependency Injection oleh Eko Kurniawan Khannedy
+
+==================================================
+
+Penjumlahan (+):
+
+Pengurangan (-):
+
+Perkalian (*):
+
+Pembagian (/):
+
+Modulo (%):
+Operator ini digunakan untuk mendapatkan sisa hasil bagi.
+
+Operator Unary:
+Increment (++): Menambahkan 1 ke variabel.
+
+Decrement (--): Mengurangi 1 dari variabel.
+
+
+=====================================================
+
 
 
 
