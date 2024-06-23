@@ -1,4 +1,4 @@
-Pernyataan for di Golang digunakan untuk membuat loop.
+If Di Golang :
 
 link nya : https://www.golang-book.com/
 
@@ -29,13 +29,11 @@ contoh Kasus :
 
 Penjelasan:
 
-1. Dalam fungsi main(), kita menampilkan contoh penggunaan masing-masing bentuk pernyataan for di Golang.
-2. Untuk bentuk dasar, kita menggunakan loop for dengan initialization, condition, dan post untuk mencetak nilai i dari 0 hingga 4.
-3. Untuk bentuk singkat, kita menggunakan loop for hanya dengan condition untuk mengurangi nilai x dari 10 hingga 1.
-4. Untuk bentuk for-each, kita menggunakan loop for dengan key dan value untuk mencetak indeks dan nilai dari setiap elemen dalam slice fruits.
-5. Untuk bentuk tak terbatas, kita menggunakan loop for tanpa initialization, condition, dan post untuk mencetak "Looping..." dan menambah nilai count hingga count lebih besar dari 2, lalu loop dihentikan dengan break.
+kita menggunakan berbagai bentuk if untuk membuat cabang-cabang dalam program. Mulai dari if 
+dasar, if-else, if-else if-else, inisialisasi variabel dalam if, kombinasi dengan operator 
+logika, dan penggunaan switch.
 
-go run for.go
+go run ifGolang.go
 
 
 
