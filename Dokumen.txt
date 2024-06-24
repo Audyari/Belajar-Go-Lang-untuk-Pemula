@@ -1,4 +1,4 @@
-Map di GoLang
+Map dalam Map
 
 
 link nya : https://www.golang-book.com/
@@ -28,14 +28,21 @@ Go-Lang Dependency Injection oleh Eko Kurniawan Khannedy
 
 contoh Kasus : 
 
-Map di Go adalah sebuah tipe data yang menyimpan pasangan key-value.
+Dalam contoh ini, kita memiliki:
 
-Dalam program ini, kita mendemonstrasikan berbagai operasi yang dapat dilakukan dengan map, 
-seperti deklarasi, inisialisasi, menambahkan, mengubah, dan menghapus entri, mengakses nilai, iterasi, 
-pengecekan keberadaan kunci, inisialisasi dengan data awal, dan penggunaan map sebagai parameter fungsi.
+1. students adalah map luar yang menyimpan data mahasiswa berdasarkan NIM (string) sebagai kunci.
+2. Nilai dari setiap kunci di map luar adalah map lain yang menyimpan informasi mahasiswa, yaitu name (string) dan grades (map lagi).
+3. Map internal grades menyimpan nilai mata kuliah mahasiswa, dengan nama mata kuliah (string) sebagai kunci dan nilai (float64) sebagai nilai.
+
+Dalam fungsi main(), kita:
+
+1. Mencetak header "Data Mahasiswa".
+2. Iterasi melalui map luar students menggunakan for ... range.
+3. Untuk setiap mahasiswa, kita mencetak NIM, nama, dan nilai mata kuliah.
+4. Untuk mengakses map internal grades, kita menggunakan tipe asertif .(map[string]float64) karena nilai dari kunci "grades" adalah interface{}.
 
 
-go run Map.go
+go run Map_dalam_Map.go
 
 
 
