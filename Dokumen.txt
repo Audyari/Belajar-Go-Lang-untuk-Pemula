@@ -1,4 +1,4 @@
-Array adalah sebuah struktur data yang merupakan kumpulan elemen-elemen yang memiliki tipe data yang sama.
+Slice di Go adalah sebuah struktur data yang mirip dengan array, namun lebih fleksibel.
 
 
 link nya : https://www.golang-book.com/
@@ -30,36 +30,14 @@ contoh Kasus :
 
 Penjelasan:
 
-1. Deklarasi dan Inisialisasi Array:
-numbers := [5]int{1, 2, 3, 4, 5}: Deklarasi dan inisialisasi array numbers dengan 5 elemen bertipe int dengan nilai 1, 2, 3, 4, dan 5.
-fmt.Println("Array angka:", numbers): Mencetak isi array numbers.
-
-2. Mengakses Elemen Array:
-fmt.Println("Elemen pertama:", numbers[0]): Mencetak elemen pertama (indeks 0) dari array numbers.
-fmt.Println("Elemen ketiga:", numbers[2]): Mencetak elemen ketiga (indeks 2) dari array numbers.
-
-3. Mengubah Nilai Elemen Array:
-numbers[1] = 10: Mengubah nilai elemen kedua (indeks 1) dari array numbers menjadi 10.
-fmt.Println("Array angka setelah diubah:", numbers): Mencetak isi array numbers setelah diubah.
-
-4.Menghitung Panjang Array:
-fmt.Println("Panjang array:", len(numbers)): Mencetak panjang array numbers.
-
-5.Iterasi Menggunakan for Loop:
-fmt.Println("Iterasi menggunakan for loop:"): Mencetak judul untuk iterasi menggunakan for loop.
-for i := 0; i < len(numbers); i++ { fmt.Println(numbers[i]) }: Melakukan iterasi melalui setiap elemen array numbers dan mencetak nilainya.
-
-6.Iterasi Menggunakan for-range:
-fmt.Println("\nIterasi menggunakan for-range:"): Mencetak judul untuk iterasi menggunakan for-range.
-for index, value := range numbers { fmt.Printf("Index: %d, Nilai: %d\n", index, value) }: Melakukan iterasi melalui setiap elemen array numbers dan mencetak indeks serta nilainya.
-7. Array Multidimensi:
-matrix := [3][3]int{{1, 2, 3}, {4, 5, 6}, {7, 8, 9}}: Deklarasi dan inisialisasi array multidimensi matrix dengan ukuran 3x3.
-fmt.Println("\nArray multidimensi (Matrix):"): Mencetak judul untuk array multidimensi.
-for i := 0; i < 3; i++ { for j := 0; j < 3; j++ { fmt.Print(matrix[i][j], " ") } fmt.Println() }: Melakukan iterasi melalui setiap elemen array multidimensi matrix dan mencetak nilainya.
+1. Kita mengdeklarasikan dan menginisialisasi sebuah slice mySlice dengan nilai awal [1 2 3 4 5].
+2. Kita mengakses elemen ke-3 dari mySlice, yaitu nilai 3.
+3. Kita membuat sub-slice subSlice yang merupakan potongan dari mySlice mulai dari indeks 1 sampai 3 (indeks 4 tidak termasuk).
+4. Kita menambahkan dua elemen baru, 6 dan 7, ke dalam mySlice menggunakan fungsi append().
+5. Terakhir, kita menampilkan panjang dan kapasitas dari mySlice.
 
 
-
-go run Array.go
+go run Slice.go
 
 
 
