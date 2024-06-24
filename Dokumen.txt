@@ -1,4 +1,4 @@
-manipulasi slice di Go.
+Map di GoLang
 
 
 link nya : https://www.golang-book.com/
@@ -28,11 +28,14 @@ Go-Lang Dependency Injection oleh Eko Kurniawan Khannedy
 
 contoh Kasus : 
 
-Penjelasan:
-Dalam program ini, kita mendemonstrasikan berbagai operasi manipulasi slice seperti slicing, append, copy, 
-insert, remove, resize, concatenate, dan iterate. Setiap operasi ditampilkan dengan outputnya masing-masing.
+Map di Go adalah sebuah tipe data yang menyimpan pasangan key-value.
 
-go run manipulasi_slice.go
+Dalam program ini, kita mendemonstrasikan berbagai operasi yang dapat dilakukan dengan map, 
+seperti deklarasi, inisialisasi, menambahkan, mengubah, dan menghapus entri, mengakses nilai, iterasi, 
+pengecekan keberadaan kunci, inisialisasi dengan data awal, dan penggunaan map sebagai parameter fungsi.
+
+
+go run Map.go
 
 
 
