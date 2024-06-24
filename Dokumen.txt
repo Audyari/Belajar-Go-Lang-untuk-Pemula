@@ -1,4 +1,4 @@
-Slice di Go adalah sebuah struktur data yang mirip dengan array, namun lebih fleksibel.
+manipulasi slice di Go.
 
 
 link nya : https://www.golang-book.com/
@@ -29,15 +29,10 @@ Go-Lang Dependency Injection oleh Eko Kurniawan Khannedy
 contoh Kasus : 
 
 Penjelasan:
+Dalam program ini, kita mendemonstrasikan berbagai operasi manipulasi slice seperti slicing, append, copy, 
+insert, remove, resize, concatenate, dan iterate. Setiap operasi ditampilkan dengan outputnya masing-masing.
 
-1. Kita mengdeklarasikan dan menginisialisasi sebuah slice mySlice dengan nilai awal [1 2 3 4 5].
-2. Kita mengakses elemen ke-3 dari mySlice, yaitu nilai 3.
-3. Kita membuat sub-slice subSlice yang merupakan potongan dari mySlice mulai dari indeks 1 sampai 3 (indeks 4 tidak termasuk).
-4. Kita menambahkan dua elemen baru, 6 dan 7, ke dalam mySlice menggunakan fungsi append().
-5. Terakhir, kita menampilkan panjang dan kapasitas dari mySlice.
-
-
-go run Slice.go
+go run manipulasi_slice.go
 
 
 
