@@ -1,0 +1,4 @@
+
+1. go run .\main.go "Buat jalanin Program"
+
+2. go build .\main.go "Buat Compaile Program"
